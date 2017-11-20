@@ -1,0 +1,36 @@
+{
+    "name": "etelford/laravel-api-validation",
+    "description": "Custom Validation for Laravel API requests",
+    "keywords": ["laravel", "validation", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Telford",
+            "email": "e@eriktelford.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Etelford\\LaravelValidation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/http": "~5.4",
+        "illuminate/container": "~5.4",
+        "illuminate/support": "~5.4",
+        "illuminate/validation": "~5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "symfony/var-dumper": "^3.1",
+        "orchestra/testbench": "~3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

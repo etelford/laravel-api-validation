@@ -1,0 +1,12 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+  - nightly
+
+before_script:
+  - composer selfupdate
+  - composer install --prefer-source
+
+script: vendor/bin/phpunit --verbose
