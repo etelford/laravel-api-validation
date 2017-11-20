@@ -8,7 +8,6 @@ requests.
 
 Laravel 5.4+ and PHP >= 7.0.
 
-<a name="install"/>
 ## Installation
 
 Install through Composer.
@@ -17,7 +16,6 @@ Install through Composer.
 composer require etelford/laravel-api-validation
 ```
 
-<a name="start">
 ## Usage
 
 First, import the `HandlesApiRequests` trait (usually in your base controller):
